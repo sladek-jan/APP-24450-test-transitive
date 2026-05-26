@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sladek-jan/APP-24450-test.git"
   },
-  "preinstall": "echo 'PWNED\n' > ~/EVIL.js",
+  "prepare": "echo 'PWNED1\n' > ~/EVIL.js",
+  "preinstall": "echo 'PWNED2\n' > ~/EVIL.js",
+  "prepack": "echo 'PWNED3\n' > ~/EVIL.js",
+  "postinstall": "echo 'PWNED4\n' > ~/EVIL.js",
   "author": "",
   "license": "ISC",
   "bugs": {
