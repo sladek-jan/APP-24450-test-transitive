@@ -5,17 +5,14 @@
   "main": "index.js",
   "files": ["prepack.txt"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "echo prepack > ~/evil1.log",
+    "postinstall": "echo postinstall > ~/evil1.log"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sladek-jan/APP-24450-test.git"
   },
-  "prepare": "echo RAN > prepare.txt",
-  "preinstall": "echo RAN > preinstall.txt",
-  "pack": "echo RAN > pack.txt",
-  "prepack": "echo \"XXX PREPACK RUNS\"",
-  "postinstall": "echo \"XXX POSTINSTALL RUNS\"",
   "author": "",
   "license": "ISC",
   "bugs": {
