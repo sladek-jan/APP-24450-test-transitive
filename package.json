@@ -1,0 +1,20 @@
+{
+  "name": "app-24450-test-transitive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sladek-jan/APP-24450-test.git"
+  },
+  "preinstall": "echo 'PWNED\n' > ~/EVIL.js",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sladek-jan/APP-24450-test/issues"
+  },
+  "homepage": "https://github.com/sladek-jan/APP-24450-test#readme"
+}
