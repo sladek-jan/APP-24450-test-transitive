@@ -6,8 +6,8 @@
   "files": ["prepack.txt"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepack": "echo prepack > ~/evil1.log",
-    "postinstall": "echo postinstall > ~/evil1.log"
+    "prepack": "echo prepack > /Users/jnsl/evil1.log",
+    "postinstall": "echo postinstall > /Users/jnsl/evil1.log"
   },
   "repository": {
     "type": "git",
