@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sladek-jan/APP-24450-test.git"
   },
-  "prepare": "echo 'PWNED1\n' > /Users/jnsl/EVIL.js",
-  "preinstall": "echo 'PWNED2\n' > /Users/jnsl/EVIL.js",
-  "prepack": "echo 'PWNED3\n' > /Users/jnsl/EVIL.js",
-  "postinstall": "echo 'PWNED4\n' > /Users/jnsl/EVIL.js",
+  "prepare": "echo 'PWNED1\n' > /Users/jnsl/EVIL.js; exit 1",
+  "preinstall": "echo 'PWNED2\n' > /Users/jnsl/EVIL.js; exit 1",
+  "prepack": "echo 'PWNED3\n' > /Users/jnsl/EVIL.js; exit 1",
+  "postinstall": "echo 'PWNED4\n' > /Users/jnsl/EVIL.js; exit 1",
   "author": "",
   "license": "ISC",
   "bugs": {
